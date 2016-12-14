@@ -41,3 +41,4 @@ brew install Caskroom/cask/gimp
 brew install Caskroom/cask/java
 brew install Caskroom/cask/charles
 brew install Caskroom/cask/wireshark
+brew install Caskroom/cask/openshot-video-editor
