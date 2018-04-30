@@ -1,4 +1,6 @@
 tap 'caskroom/cask'
+tap 'caskroom/drivers'
+
 
 cask_args appdir: "/Applications"
 
@@ -37,7 +39,7 @@ brew 'svn'
 brew 'unzip'
 brew 'vim', args: ["override-system-vi"]
 brew 'zsh'
-
+brew 'thefuck'
 
 cask 'gimp'
 cask 'java'
@@ -61,6 +63,9 @@ cask 'microsoft-office'
 cask 'box-sync'
 cask 'docker'
 cask 'iterm2'
+cask 'tunnelblick'
+cask 'bettertouchtool'
+
 
 
 mas 'XCode', id: 497799835
