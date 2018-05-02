@@ -26,6 +26,9 @@ brew 'gpatch'
 brew 'm4'
 brew 'make'
 brew 'tree'
+brew 'awscli'
+brew 'aws-cfn-tools'
+brew 'aws-elasticbeanstalk'
 
 
 brew 'file-formula'

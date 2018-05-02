@@ -11,6 +11,7 @@ antigen bundles <<EOBUNDLES
   npm
   adb
   ant
+  aws
 EOBUNDLES
 
 # Antigen Load Theme

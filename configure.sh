@@ -34,3 +34,9 @@ curl -L git.io/antigen > ~/bin/antigen.zsh
 # Change shell
 echo /usr/local/bin/zsh | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh
+
+# Mac Specific Things
+if [ ${uname -s} -eq "Darwin"];
+then
+  defaults export com.googlecode.iterm2 setup/iterm.plist
+fi
