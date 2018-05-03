@@ -13,7 +13,7 @@ brew bundle --file ./Brewfile
 ln -s ~/repos/init-new-mac/dotfiles/.zshrc ~/
 ln -s ~/repos/init-new-mac/dotfiles/.zshenv ~/
 ln -s ~/repos/init-new-mac/dotfiles/.gitconfig ~/
-ln -s ~/repos/init-new-mac/dotfiles/.git-commit-messsge ~/
+ln -s ~/repos/init-new-mac/dotfiles/.git-commit-message ~/
 
 # Make bin dir
 mkdir ~/bin

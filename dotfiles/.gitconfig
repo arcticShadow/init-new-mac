@@ -2,7 +2,7 @@
        	name = Cole Diffin
        	email = cole.diffin@gmail.com
 [commit]
-       	template = /Users/coledi/.git-commit-message
+       	template = ~/.git-commit-message
 [format]
        	pretty = %C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s
 [log]
