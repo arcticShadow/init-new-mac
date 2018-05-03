@@ -12,6 +12,7 @@ antigen bundles <<EOBUNDLES
   adb
   ant
   aws
+  docker
 EOBUNDLES
 
 # Antigen Load Theme
