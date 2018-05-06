@@ -14,3 +14,9 @@ export HOMEBREW_GITHUB_API_TOKEN=
 
 # Node VersionManager
 source ~/.nvm/nvm.sh
+
+# Check for existance for this file, and source it if found. 
+# This file, is excluded form git
+if [  -f ~/.pathextra ]; then
+    source ~/.pathextra
+fi
