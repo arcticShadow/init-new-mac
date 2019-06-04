@@ -35,8 +35,9 @@ cask 'visual-studio-code'
 
 # Mac App Store apps
 mas 'XCode', id: 497799835
-#mas 'Pages', id: 409201541
-#mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Write', id: 848311469
 mas 'QVR Client', id: 806101067
 
+# Disabled Apps
+#mas 'Pages', id: 409201541
+#mas 'Microsoft Remote Desktop', id: 715768417
