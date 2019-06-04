@@ -1,0 +1,42 @@
+tap 'caskroom/cask'
+tap 'caskroom/drivers'
+
+
+cask_args appdir: "/Applications"
+cask 'gimp'
+cask 'charles'
+cask 'wireshark'
+cask 'rambox'
+cask 'firefox'
+cask 'google-chrome'
+cask 'spectacle'
+cask 'vlc'
+cask 'alfred'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+cask 'steam'
+cask 'box-sync'
+cask 'docker'
+cask 'iterm2'
+cask 'tunnelblick'
+cask 'bettertouchtool'
+cask 'visual-studio-code'
+
+
+# Disabled Apps
+#cask 'java'
+#cask 'openshot-video-editor'
+#cask 'opera'
+#cask 'sequel-pro'
+#cask 'bitwarden'
+#cask 'atom'
+#cask 'microsoft-office'
+
+
+# Mac App Store apps
+mas 'XCode', id: 497799835
+#mas 'Pages', id: 409201541
+#mas 'Microsoft Remote Desktop', id: 715768417
+mas 'Write', id: 848311469
+mas 'QVR Client', id: 806101067
+

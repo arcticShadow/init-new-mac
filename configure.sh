@@ -6,7 +6,22 @@ brew install mas
 
 
 #Runs the brewer
-brew bundle --file ./Brewfile
+brew bundle --file ./Brewfile-utils
+
+# Configure some default setting things
+defaults write -g AppleInterfaceStyle Dark
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write -g KeyRepeat 2
+defaults write -g InitialKeyRepeat 15
+#Dock
+defaults write com.apple.dock tilesize -int 16
+defaults write com.apple.dock autohide -int 1
+defaults write com.apple.dock persistent-apps -array  
+#Trackpad
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# This one does not appear to be working
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 
 
 # Link dot dotfiles
@@ -40,3 +55,6 @@ if [ ${uname -s} -eq "Darwin"];
 then
   defaults export com.googlecode.iterm2 setup/iterm.plist
 fi
+
+# runs the Brewer for Apps. 
+brew bundle --file ./Brewfile-apps
